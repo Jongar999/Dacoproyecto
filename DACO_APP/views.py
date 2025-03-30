@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def mi_vista(request):
+    return render(request, 'daco/index.html')  # Usa 'daco/index.html'
